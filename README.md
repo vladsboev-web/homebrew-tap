@@ -1,17 +1,39 @@
-# Homebrew Tap for SpatialAudio
+# Homebrew Tap (`vladsboev-web/tap`)
 
-Official Homebrew Tap for **[SpatialAudio for macOS](https://github.com/vladsboev-web/SpatialAudio)** — system-wide Apple `HRTFHQ` spatial soundstage & speaker virtualization for any headphones on Mac.
+Official Homebrew Tap for macOS utilities by **[@vladsboev-web](https://github.com/vladsboev-web)**.
 
-## Installation
+---
 
-Install `SpatialAudio.app` (along with the `blackhole-2ch` virtual loopback driver and automatic Gatekeeper quarantine removal) in one command:
+## ⚡️ TurboControl
 
+Native, ultra-lightweight menu bar utility for **Intel-based Macs** to toggle **Intel Turbo Boost**, control fan speeds (RPM), and monitor real-time CPU & GPU thermals.
+
+- **Repository:** [github.com/vladsboev-web/TurboControl](https://github.com/vladsboev-web/TurboControl)
+
+### Installation
+```bash
+brew install --cask vladsboev-web/tap/turbocontrol
+```
+
+### Uninstallation
+```bash
+brew uninstall --cask turbocontrol
+```
+
+---
+
+## 🎧 SpatialAudio
+
+System-wide Apple `HRTFHQ` spatial soundstage & speaker virtualization for any headphones on Mac.
+
+- **Repository:** [github.com/vladsboev-web/SpatialAudio](https://github.com/vladsboev-web/SpatialAudio)
+
+### Installation
 ```bash
 brew install --cask vladsboev-web/tap/spatialaudio
 ```
 
-## Uninstall
-
+### Uninstallation
 ```bash
 brew uninstall --cask spatialaudio
 ```
