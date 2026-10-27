@@ -7,7 +7,7 @@ cask "turbocontrol" do
   desc "Menu bar app for Intel Macs: toggle Turbo Boost, manage fan speeds, and monitor thermals"
   homepage "https://github.com/vladsboev-web/TurboControl"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :x86_64
 
   app "TurboControl.app"
