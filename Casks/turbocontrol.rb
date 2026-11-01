@@ -1,6 +1,6 @@
 cask "turbocontrol" do
   version "1.0.0"
-  sha256 "4e37a61964df9e6e5b6133b3d14cfc76f129a3bfecf347c5c6a7621411eed6aa"
+  sha256 "0b5f88e7af7de4a44c9addf49eb68636d2c0233deb3f378de39bea003fe9cb53"
 
   url "https://github.com/vladsboev-web/TurboControl/releases/download/v#{version}/TurboControl.zip"
   name "TurboControl"
