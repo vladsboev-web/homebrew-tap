@@ -1,10 +1,10 @@
 cask "spatialaudio" do
-  version "1.0.0"
-  sha256 "f756683c93575a3817a1a9b63f19c7c25e2369832493ec4f6dcb1e2dbb91314b"
+  version "2.0.0"
+  sha256 "a6fa0050caaf8ec3213322ac5b271ed682e173e7133d45de3bbce27d5e27235c"
 
   url "https://github.com/vladsboev-web/SpatialAudio/releases/download/v#{version}/SpatialAudio.zip"
   name "SpatialAudio"
-  desc "System-wide Apple HRTFHQ spatial soundstage and speaker virtualization for any headphones"
+  desc "System-wide Apple HRTFHQ spatial soundstage and speaker virtualization for any headphones and speakers"
   homepage "https://github.com/vladsboev-web/SpatialAudio"
 
   depends_on macos: ">= :ventura"
