@@ -7,7 +7,7 @@ cask "spatialaudio" do
   desc "System-wide Apple HRTFHQ spatial soundstage and speaker virtualization for any headphones and speakers"
   homepage "https://github.com/vladsboev-web/SpatialAudio"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on cask: "blackhole-2ch"
 
   app "SpatialAudio.app"
