@@ -1,6 +1,6 @@
 cask "spatialaudio" do
-  version "2.0.0"
-  sha256 "a6fa0050caaf8ec3213322ac5b271ed682e173e7133d45de3bbce27d5e27235c"
+  version "2.0.1"
+  sha256 "09740f03f2ae341b6bd19f1d37ff6e59e26153c27b07f06cd77add1c2d72c514"
 
   url "https://github.com/vladsboev-web/SpatialAudio/releases/download/v#{version}/SpatialAudio.zip"
   name "SpatialAudio"
