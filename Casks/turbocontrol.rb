@@ -1,14 +1,13 @@
 cask "turbocontrol" do
-  version "1.0.0"
-  sha256 "0b5f88e7af7de4a44c9addf49eb68636d2c0233deb3f378de39bea003fe9cb53"
+  version "1.1.0"
+  sha256 "385d793810619a6ff70b34365b5600bba106121606f26f6244b07420283f3758"
 
   url "https://github.com/vladsboev-web/TurboControl/releases/download/v#{version}/TurboControl.zip"
   name "TurboControl"
-  desc "Menu bar app for Intel Macs: toggle Turbo Boost, manage fan speeds, and monitor thermals"
+  desc "Menu bar app for macOS: toggle Turbo Boost on Intel, manage fan speeds, power, and monitor thermals"
   homepage "https://github.com/vladsboev-web/TurboControl"
 
   depends_on macos: :monterey
-  depends_on arch: :x86_64
 
   app "TurboControl.app"
 
@@ -23,6 +22,8 @@ cask "turbocontrol" do
   uninstall quit: "com.turbocontrol.app",
             kext: "com.rugarciap.DisableTurboBoost",
             delete: [
+              "/Library/PrivilegedHelperTools/turbocontrol-helper",
+              "/Library/PrivilegedHelperTools/turbocontrol-fan",
               "/usr/local/bin/turbocontrol-helper",
               "/usr/local/bin/turbocontrol-fan",
               "/etc/sudoers.d/turbocontrol",
