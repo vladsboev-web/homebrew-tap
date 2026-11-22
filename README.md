@@ -4,6 +4,24 @@ Official Homebrew Tap for macOS utilities by **[@vladsboev-web](https://github.c
 
 ---
 
+## 🟢 ContextRing
+
+Native macOS floating context ring and menu bar token monitor for **Google Antigravity 2.0** (`Universal: arm64 + x86_64`).
+
+- **Repository:** [github.com/vladsboev-web/ContextRing](https://github.com/vladsboev-web/ContextRing)
+
+### Installation
+```bash
+brew install --cask vladsboev-web/tap/contextring
+```
+
+### Uninstallation
+```bash
+brew uninstall --cask contextring
+```
+
+---
+
 ## ⚡️ TurboControl
 
 Native, ultra-lightweight menu bar utility for **Intel-based Macs** to toggle **Intel Turbo Boost**, control fan speeds (RPM), and monitor real-time CPU & GPU thermals.
