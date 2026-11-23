@@ -1,6 +1,6 @@
 cask "contextring" do
-  version "1.1.0"
-  sha256 "65f0303a09c13c93c52b9504571893f661e2befce84ac513a66217b6da5f9773"
+  version "1.1.1"
+  sha256 "b6962ee05680cb5d20ab85011b64e55508f3a2b3b47f53ca9493f5a81bc6c843"
 
   url "https://github.com/vladsboev-web/ContextRing/releases/download/v#{version}/ContextRing-v#{version}-macos-universal.zip"
   name "ContextRing"
